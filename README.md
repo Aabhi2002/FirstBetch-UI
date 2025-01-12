@@ -1,70 +1,160 @@
-# Getting Started with Create React App
+# Firstbench Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```plaintext
+firstbench-dashboard/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── ProfileDropdown.js
+│   │   ├── ResultSection.js
+│   │   ├── CompareBox.js
+│   │   ├── AnalysisGrid.js
+│   │   └── Metrics.js
+│   ├── styles/
+│   │   └── styles.css
+│   └── App.js
+├── public/
+│   └── index.html
+├── package.json
+└── README.md
+```
 
-## Available Scripts
+## 🚀 Getting Started
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+- Node.js (v14 or higher)
+- npm or yarn
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+```bash
+git clone https://github.com/Aabhi2002/firstbench-dashboard.git
+cd firstbench-dashboard
+```
 
-### `npm test`
+2. Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+# or
+yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm run eject`
+## 📦 Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React.js
+- Tailwind CSS
+- Lucide React (for icons)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🏗️ Component Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### App.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The main application component that orchestrates the layout and component composition.
 
-## Learn More
+### Navbar.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Main navigation component
+- Contains links to different sections
+- Includes ProfileDropdown component
+- Responsive design with mobile support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### ResultSection.js
 
-### Code Splitting
+- Displays user's test results
+- Shows comparison with top scores
+- Contains "Improve your Marks" and "Revisit Paper" sections
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### CompareBox.js
 
-### Analyzing the Bundle Size
+- Comparison metrics display
+- Interactive dropdown functionality
+- Visual representation of comparative data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### AnalysisGrid.js
 
-### Making a Progressive Web App
+Displays four key analysis components:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Improvements
+2. Response Time
+3. Approach Data
+4. Suggestions
 
-### Advanced Configuration
+### Metrics.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Compare Accuracy visualization
+- Time Taken analysis
+- Interactive graphs and scales
 
-### Deployment
+## 🎨 Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The project uses Tailwind CSS for styling with custom configurations:
 
-### `npm run build` fails to minify
+- Custom color schemes
+- Responsive design utilities
+- Animation classes
+- Custom scrollbar styling
+- Grid patterns and scale patterns
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔧 Configuration
+
+### Tailwind CSS
+
+The project uses Tailwind CSS with custom configurations for:
+
+- Colors
+- Spacing
+- Animations
+- Responsive breakpoints
+
+### Styles
+
+Custom CSS is included in `styles.css` for:
+
+- Smooth scrolling
+- Transitions
+- Animations
+- Custom scrollbar
+- Background patterns
+
+## 📱 Responsive Design
+
+The dashboard is fully responsive with breakpoints for:
+
+- Mobile devices
+- Tablets
+- Desktop screens
+- Large screens
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Lucide React for the beautiful icons
+- Tailwind CSS for the utility-first CSS framework
+- React.js community for the amazing tools and support
+
+## 📞 Contact
+
+Abhishek Rajput - [abhishekrajput90094@gmail.com](mailto:abhishekrajput90094@gmail.com)
+Project Link: [https://github.com/Aabhi2002/firstbench-dashboard](https://github.com/Aabhi2002/firstbench-dashboard)
