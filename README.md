@@ -157,4 +157,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Contact
 
 Abhishek Rajput - [abhishekrajput90094@gmail.com](mailto:abhishekrajput90094@gmail.com)
-Project Link: [https://github.com/Aabhi2002/firstbench-dashboard](https://github.com/Aabhi2002/firstbench-dashboard)
+Project Link:(https://github.com/Aabhi2002/FirstBetch-UI/tree/main)
